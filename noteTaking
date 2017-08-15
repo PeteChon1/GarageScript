@@ -1,0 +1,53 @@
+Vim Shortcuts:
+
+---------------INSERT MODE/Different Ways To Enter Insert Mode---------------------------- 
+
+i: insert text before the cursor
+I: insert text at the beginning of the line
+a: insert text after the cursor
+A: insert text at the end of the line
+O: insert line above cursor
+o: insert line below cursor
+
+
+p: paste after cursor
+D: 
+dd: delete/cut a line
+
+
+------------- NORMAL MODE-------------------------------
+
+h: move left
+j: move down
+k: move up
+l: move right
+{: move to previous empty space
+}: move to next empty space
+$: Go to end of the line
+0: go to front of the line that the cursor is in
+w: go to next word including punctuation
+W: go to the next word excluding punctuation
+b: go to previous word including punctuation
+B: go to previous word excluding punctuation
+gg: goo to topmost of paragraph
+GG: go to the bottommost of paragraph
+G:  go to the beginning of the very last line
+u:  undo everything you wrote in insert mode
+:/:  write :/"word you want" and you can search for the word.  Sift through each word by pressing n characteri
+number + G: find the line number that you want to move to 
+number + yy: copy the line
+p: paste
+di ": delete everything inside a quote but keep the quote as an empty quote
+di (: delete everything inside a parenthesis  
+da ": delete the quote and everythig within the quotes
+dit:  delete inside a tag
+dat:  delete the tag and inside the tag
+cat:  delete tag and inside the tag and go into insert mode
+cit:  delete inside the tag and go into insert mode
+d:    delete, you need to specify what you will delete next i.e. gg - d - G deletes the whole document
+
+--------------UNIX COMMANDS-------------------------------
+
+
+
+ 
