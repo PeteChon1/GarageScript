@@ -1,8 +1,8 @@
 const add = require ("./app.js");
 
-const test = (value1, value2) => {
+const test = (value1, value2, value3) => {
 
-  if (add(value1, value2) === (value1 + value2)) {
+  if (add(value1, value2) === value3) {
     console.log ("the answer is correct");
   } else {
     console.log ("There is an error with your addition function");
@@ -10,7 +10,8 @@ const test = (value1, value2) => {
 
 };
 
-test (2, 3);
+test (2, 3, 5);
+test (2, 3, 6);
 
 
   /*if (add (2, 3) === 5) {
